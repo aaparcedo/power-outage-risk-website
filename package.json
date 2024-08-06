@@ -1,0 +1,19 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vite": "^4.0.0",
+    "ol": "^6.5.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
