@@ -39,7 +39,7 @@
         }).addTo(map);
 
         // Load and display the GeoTIFF file
-        fetch('your_geotiff_file.tif')
+        fetch('fl_radiance_2015_01_01.tif')
             .then(response => response.arrayBuffer())
             .then(arrayBuffer => {
                 parseGeoraster(arrayBuffer).then(georaster => {
