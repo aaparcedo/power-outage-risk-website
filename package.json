@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "vite": "^4.0.0",
+    "vite": "^5.3.5",
     "ol": "^6.5.0"
   },
   "devDependencies": {
